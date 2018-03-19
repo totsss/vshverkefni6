@@ -6,7 +6,9 @@
 
   </head>
   <body>
+  <a href="/1">klikka fyrir Part 2</a>
   <form method='post' action='/data' accept-charset="ISO-8859-1">
+
 
       <h2>Upplýsingar um notandann</h2>
       Nafn:<br>
