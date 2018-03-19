@@ -26,5 +26,7 @@
         verd *= 1.25
 %>
      <h1>verð pizzu og álegg :{{int(verd)}}</h1>
+
+     <a href="/">Heim</a>
     </body>
 </html>
