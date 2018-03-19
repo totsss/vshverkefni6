@@ -18,7 +18,13 @@ def pontun():
     alegg = request.forms.getall('alegg')
     staerd = request.forms.get('staerd')
 
+
+
     return template("pontun.tpl",name=name,email=email,phone=phone,heima=heima,alegg=alegg,staerd=staerd,verd=verd)
+
+@route('/1')
+def vid():
+    return template("innskra.tpl")
 
 
 
