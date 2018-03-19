@@ -24,7 +24,8 @@ def pontun():
 
 @route('/1')
 def vid():
-    return template("innskra.tpl")
+    with open("skra.txt", 'r+', encoding='utf-8') as f:
+        return template("innskra.tpl", f=f)
 
 
 
